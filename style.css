@@ -1,2 +1,84 @@
+.navbar-dark .nav-link {
+  color: #fff !important;
+}
 
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus {
+  color: #f8f9fa !important;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+.profile-image-card {
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-card-img {
+  max-height: 550px;
+  object-fit: cover;
+}
+
+.tech-icons .card {
+  min-height: 190px;
+}
+
+.tech-icon-img {
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 18px;
+  display: inline-block;
+}
+
+/* Target the navigation links inside the Bootstrap navbar on hover */
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus {
+  color: #000 !important;
+}
+
+.navbar-dark .nav-link.active {
+  color: #ffc107 !important;
+  font-weight: 600;
+  text-decoration: underline;
+}
+/* Base styling for the social icon anchor tags */
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  margin: 0 4px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* Brand specific background colors on hover */
+.social-icon.facebook:hover {
+  background-color: #3b5998; /* Facebook Blue */
+  transform: translateY(-3px); /* Subtle lift effect */
+}
+
+.social-icon.twitter:hover {
+  background-color: #000000; /* Twitter/X Black */
+  transform: translateY(-3px);
+}
+
+.social-icon.instagram:hover {
+  background-color: #e1306c; /* Instagram Pink */
+  transform: translateY(-3px);
+}
+
+.social-icon.linkedin:hover {
+  background-color: #0077b5; /* LinkedIn Blue */
+  transform: translateY(-3px);
 }
